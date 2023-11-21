@@ -6,9 +6,75 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <link
+      rel="stylesheet"
+      href="src/style.css"
+    />
     <title>World Clock 🕰️</title>
   </head>
   <body>
-    hellooo
+    <h1>World Clock</h1>
+    <form>
+      <select>
+        <option value="">Select a time zone...</option>
+        <option value="paris">Paris</option>
+        <option value="london">London</option>
+        <option value="new-york">New York</option>
+        <option value="los-angeles">Los Angeles</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="new-delhi">New Delhi</option>
+        <option value="istanbul">Istanbul</option>
+      </select>
+    </form>
+    <div
+      class="cities"
+      id="cities"
+    >
+      <div
+        class="city"
+        id="london"
+      >
+        <h2>London</h2>
+        <div class="date">21 November 2023</div>
+        <div class="time">1:41:45 AM</div>
+      </div>
+      <div
+        class="city"
+        id="chicago"
+      >
+        <h2>Chicago</h2>
+        <div class="date">21 November 2023</div>
+        <div class="time">1:41:45 AM</div>
+      </div>
+      <div
+        class="city"
+        id="singapore"
+      >
+        <h2>Singapore</h2>
+        <div class="date">21 November 2023</div>
+        <div class="time">1:41:45 AM</div>
+      </div>
+    </div>
+    <footer>
+      Coded 👩‍💻 by
+      <a
+        href="https://github.com/j4mieLeigh"
+        target="_blank"
+        >Jamie Leigh</a
+      >
+      | Open-sourced 👋 on
+      <a
+        href="https://github.com/j4mieLeigh/World-Clock"
+        target="_blank"
+        >Github</a
+      >
+      | Hosted 🥳 by
+      <a
+        href="https://scintillating-sawine-be3287.netlify.app/"
+        target="_blank"
+        >Netlify</a
+      >
+    </footer>
   </body>
+  <script src="src/app.js"></script>
 </html>
