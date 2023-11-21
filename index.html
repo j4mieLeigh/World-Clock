@@ -10,49 +10,70 @@
       rel="stylesheet"
       href="src/style.css"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>World Clock 🕰️</title>
   </head>
   <body>
-    <h1>World Clock</h1>
-    <form>
-      <select>
-        <option value="">Select a time zone...</option>
-        <option value="paris">Paris</option>
-        <option value="london">London</option>
-        <option value="new-york">New York</option>
-        <option value="los-angeles">Los Angeles</option>
-        <option value="tokyo">Tokyo</option>
-        <option value="new-delhi">New Delhi</option>
-        <option value="istanbul">Istanbul</option>
-      </select>
-    </form>
-    <div
-      class="cities"
-      id="cities"
-    >
+    <div class="container">
+      <h1>World Clock</h1>
+      <form>
+        <select>
+          <option value="">Select a time zone...</option>
+          <option value="paris">Paris</option>
+          <option value="london">London</option>
+          <option value="new-york">New York</option>
+          <option value="los-angeles">Los Angeles</option>
+          <option value="tokyo">Tokyo</option>
+          <option value="new-delhi">New Delhi</option>
+          <option value="istanbul">Istanbul</option>
+        </select>
+      </form>
       <div
-        class="city"
-        id="london"
+        class="cities"
+        id="cities"
       >
-        <h2>London</h2>
-        <div class="date">21 November 2023</div>
-        <div class="time">1:41:45 AM</div>
-      </div>
-      <div
-        class="city"
-        id="chicago"
-      >
-        <h2>Chicago</h2>
-        <div class="date">21 November 2023</div>
-        <div class="time">1:41:45 AM</div>
-      </div>
-      <div
-        class="city"
-        id="singapore"
-      >
-        <h2>Singapore</h2>
-        <div class="date">21 November 2023</div>
-        <div class="time">1:41:45 AM</div>
+        <div
+          class="city"
+          id="london"
+        >
+          <div>
+            <h2>LONDON</h2>
+            <div class="date">21 November 2023</div>
+          </div>
+          <div class="time">1:41:45 <small>AM</small></div>
+        </div>
+        <div
+          class="city"
+          id="chicago"
+        >
+          <div>
+            <h2>CHICAGO</h2>
+            <div class="date">21 November 2023</div>
+          </div>
+          <div class="time">1:41:45 <small>AM</small></div>
+        </div>
+        <div
+          class="city"
+          id="singapore"
+        >
+          <div>
+            <h2>SINGAPORE</h2>
+            <div class="date">21 November 2023</div>
+          </div>
+          <div class="time">1:41:45 <small>AM</small></div>
+        </div>
       </div>
     </div>
     <footer>
