@@ -1,5 +1,3 @@
-//function updateCity(event) {}
-
 function updateTime() {
   //London
   let londonElement = document.querySelector("#london");

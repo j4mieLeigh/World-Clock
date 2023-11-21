@@ -16,7 +16,7 @@ body {
 }
 
 .text-container {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   margin: 25px 25px;
   max-width: 90%;
@@ -24,7 +24,7 @@ body {
 }
 
 h1 {
-  color: #c42ad5;
+  color: #6c4f85;
   font-family: "Roboto", sans-serif;
   font-size: 42px;
   margin: 15px 0;
@@ -34,6 +34,7 @@ h1 {
 select {
   border-radius: 6px;
   border-style: none;
+  color: #2e4057;
   display: block;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -43,6 +44,7 @@ select {
 }
 
 h2 {
+  color: #6c4f85;
   font-family: "Ubuntu Mono", monospace;
   font-size: 42px;
   margin: 0 0 5px;
@@ -56,7 +58,7 @@ select:hover {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 18px 0;
 }
 
 .city:last-child {
@@ -64,14 +66,14 @@ select:hover {
 }
 
 .date {
-  color: #c42ad5;
+  color: #2e4057;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   margin: 0 0 3px 0;
-  opacity: 0.7;
 }
 
 .time {
+  color: #6c4f85;
   font-family: "Ubuntu Mono", monospace;
   font-size: 44px;
   font-weight: 600;
@@ -84,20 +86,21 @@ select:hover {
 }
 
 a {
-  color: #5b249e;
+  color: #f7567c;
 }
 
 #back {
   display: block;
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
   padding: 10px 0;
   text-align: center;
 }
 
 footer {
+  color: #2e4057;
   font-family: courier;
   font-size: 13px;
   margin: 0 0 30px 0;
-  opacity: 0.8;
   text-align: center;
 }
