@@ -44,8 +44,8 @@ select {
 
 h2 {
   font-family: "Ubuntu Mono", monospace;
-  font-size: 46px;
-  margin: 0 0 7px;
+  font-size: 42px;
+  margin: 0 0 5px;
 }
 
 select:hover {
@@ -73,9 +73,9 @@ select:hover {
 
 .time {
   font-family: "Ubuntu Mono", monospace;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 600;
-  margin-top: 3px;
+  margin-top: 6px;
 }
 
 .time small {
@@ -85,6 +85,13 @@ select:hover {
 
 a {
   color: #5b249e;
+}
+
+#back {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 0;
+  text-align: center;
 }
 
 footer {
