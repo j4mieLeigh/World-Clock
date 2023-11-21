@@ -1,23 +1,38 @@
-.container {
-  background-image: url("media/colorful.jpg");
+body {
+  background-color: #c6adb08d;
+}
+
+.image-container {
+  background-image: url("../media/neutral - cropped.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 110%;
+  background-size: cover;
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   display: block;
   margin: 30px auto;
   max-width: 600px;
-  padding: 30px;
+  padding: 15px 15px;
+}
+
+.text-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  margin: 15px auto;
+  max-width: 550px;
+  padding: 30px 30px;
 }
 
 h1 {
+  color: #c42ad5;
   font-family: "Roboto", sans-serif;
+  font-size: 42px;
   text-align: center;
 }
 
 select {
   border-radius: 6px;
+  border-style: none;
   display: block;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -28,7 +43,7 @@ select {
 
 h2 {
   font-family: "Ubuntu Mono", monospace;
-  font-size: 42px;
+  font-size: 46px;
   margin: 0 0 7px;
 }
 
@@ -48,7 +63,9 @@ select:hover {
 }
 
 .date {
+  color: #c42ad5;
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
   margin: 0 0 3px 0;
   opacity: 0.7;
 }
@@ -56,6 +73,7 @@ select:hover {
 .time {
   font-family: "Ubuntu Mono", monospace;
   font-size: 48px;
+  font-weight: 600;
   margin-top: 3px;
 }
 
@@ -64,9 +82,14 @@ select:hover {
   vertical-align: middle;
 }
 
+a {
+  color: #5b249e;
+}
+
 footer {
   font-family: courier;
   font-size: 13px;
+  margin: 0 0 30px 0;
   opacity: 0.8;
   text-align: center;
 }
